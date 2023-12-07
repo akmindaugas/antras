@@ -25,6 +25,7 @@ gap: 40px;
 /* grid-auto-flow: dense; */
 /* align-tracks: stretch; */
 align-items:middle;
+text-align: right;
 }
 
 .one{
@@ -72,8 +73,8 @@ align-items:middle;
         color: black;
         text-align: left;
     }
-    img{
-        width: 40px;
+    img{   
+        width: 50px;
         height: auto;
-        margin: 20px 20px 20px 120px ;
+        margin:  auto ;
     }
