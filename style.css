@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(252, 247, 247);
+    text-align: center;
+    width: 1500px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.container{
+   margin: 50px auto ;
+   padding-bottom: 50px ;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr 1fr 1fr 1fr;
+/* row-gap:  20px; */
+gap: 40px;
+/* grid-auto-flow: dense; */
+/* align-tracks: stretch; */
+align-items:middle;
+}
+
+.one{
+    background-color: white;
+    border: none;
+    border-top: 3px solid red;
+    border-radius: 5px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    grid-area: 1/2/3/3;
+    box-shadow:10px  5px 15px grey;
+
+}
+.two{ 
+    background-color: white;
+    border: none;
+    border-top: 3px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    /* border: 2px solid blue; */
+    grid-area: 2/3/4/4;
+    box-shadow:10px  5px 15px grey;
+    }
+    .three{
+        background-color: white;
+        border: none;
+        border-top: 3px solid yellow;
+        border-radius: 5px;
+        padding: 20px;
+        /* border: 2px solid yellow; */
+        grid-area: 3/2/5/3;
+        box-shadow:10px  5px 15px grey;
+    }
+    .four{
+        background-color: white;
+        border: none;
+        border-top: 3px solid cyan;
+        border-radius: 5px;
+        padding: 20px;
+        /* border: 2px solid lightseagreen; */
+        grid-area: 2/1/4/2;
+        box-shadow:10px  5px 15px grey;
+    }
+    p{
+        color: black;
+        text-align: left;
+    }
+    img{
+        width: 40px;
+        height: auto;
+        margin: 20px 20px 20px 120px ;
+    }
